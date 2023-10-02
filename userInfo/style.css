@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-family: 'Mirza', serif;
+
 }
 
 .video{
@@ -26,6 +28,9 @@ body{
 }
 
 #block {
+    font-family: 'Mirza', serif;
+    font-size: 20px;
+    color: rgb(209, 255, 254);
     position: absolute;
     top:0;
     left: 0;
@@ -39,4 +44,17 @@ body{
 }
 
 
+button{
+    font-size: 20px;
+    width: 25%;
+    margin-top: 1%;
+}
+button:hover{
+    -webkit-animation-duration: 0.7s;
+    transition-duration: 0.8s;
+    font-size: 40px;
+    color: rgb(117, 143, 255);
+    border-radius: 17%;
+
+}
 

@@ -14,7 +14,18 @@ const foo = async() => {
         location.href = `../post-details/index.html?userId=${user.id}`
     }
     block.appendChild(button)
+
+    const back = document.createElement('button')
+    back.innerHTML = 'back user name';
+    back.onclick = () => {
+        location.href = `../userName/index.html`
+    }
+
+    block.appendChild(back)
 }
+
+
+
 
     void foo();
 
